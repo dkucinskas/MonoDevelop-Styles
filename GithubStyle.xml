@@ -97,9 +97,9 @@ THE SOFTWARE. -->
   <Style name="marker.template.primary_highlighted_template" color="#015A01" bgColor="#CCFF99" />
   <Style name="marker.template.secondary_template" color="#FFFFFF" bgColor="#FFFFFF" />
   <Style name="marker.template.secondary_highlighted_template" color="#D9BB7A" bgColor="#FDD99B" />
-  <Style name="bubble.warning" color="#000000" bgColor="#F3EEDA" />
+  <Style name="bubble.warning" color="#000000" bgColor="diff_deleted" />
   <Style name="bubble.warning.text" color="#000000" />
-  <Style name="bubble.error" color="#FFFFFF" bgColor="#7D0000" />
+  <Style name="bubble.error" color="#000000" bgColor="diff_deleted" />
   <Style name="bubble.error.text" color="#000000" />
   <Style name="template" color="#000000" />
   <Style name="template.tag" color="#FF00FF" />
