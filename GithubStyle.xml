@@ -41,6 +41,8 @@ THE SOFTWARE. -->
   <Color name="number" value="#009999" />
   <Color name="type" value="#445588" />
   <Color name="statement" value="#333333" />
+  <Color name="error_bg" value="#ffaaaa" />
+  <Color name="warning_bg" value="#ffffaa" />
 
   <Style name="text" color="normal_fg" bgColor="normal_bg" />
   <Style name="text.background.readonly" color="#F9F9F8" />
@@ -51,7 +53,7 @@ THE SOFTWARE. -->
   <Style name="text.link" color="type" />
 
   <Style name="linenumber" color="line_nr_fg" bgColor="line_nr_bg" />
-  <Style name="linenumber.highlight" color="type" weight="Bold" />
+  <Style name="linenumber.highlight" color="type" bgColor="line_nr_bg" />
   <Style name="iconbar" color="line_nr_bg" />
   <Style name="iconbar.separator" color="line_nr_bg" />
   <Style name="fold" color="line_nr_fg" bgColor="normal_bg" />
@@ -97,9 +99,9 @@ THE SOFTWARE. -->
   <Style name="marker.template.primary_highlighted_template" color="#015A01" bgColor="#CCFF99" />
   <Style name="marker.template.secondary_template" color="#FFFFFF" bgColor="#FFFFFF" />
   <Style name="marker.template.secondary_highlighted_template" color="#D9BB7A" bgColor="#FDD99B" />
-  <Style name="bubble.warning" color="#000000" bgColor="diff_deleted" />
+  <Style name="bubble.warning" color="#000000" bgColor="warning_bg" />
   <Style name="bubble.warning.text" color="#000000" />
-  <Style name="bubble.error" color="#000000" bgColor="diff_deleted" />
+  <Style name="bubble.error" color="#000000" bgColor="error_bg" />
   <Style name="bubble.error.text" color="#000000" />
   <Style name="template" color="#000000" />
   <Style name="template.tag" color="#FF00FF" />
