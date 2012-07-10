@@ -6,6 +6,7 @@
 
 ## Changes
 
+* 2012-07-10 Fixed semantic error color in Monokai and MonokaiNotBlod styles.
 * 2012-02-22 Added GithubStyle (this theme is based on the GitHub.com color theme).
 * 2012-02-20 Added MonokaiStyleNotBold monokai theme without bold style.
 
