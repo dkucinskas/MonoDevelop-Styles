@@ -34,8 +34,10 @@ THE SOFTWARE. -->
   <Color name="main_lightblue_color" value="#61D5ED" />
   <Color name="main_green_color" value="#A4E22E" />
   <Color name="bg_dark_brownish" value="#3B3A32" />
+  <Color name="error_bg" value="#D40000" />
+  <Color name="text_fg" value="#F8F8F2" />
 	
-  <Style name="text" color="#F8F8F2" bgColor="#272822" />
+  <Style name="text" color="text_fg" bgColor="#272822" />
   <Style name="text.background.readonly" color="#F9F9F8" />
   <Style name="linenumber" color="#BCBCBC" bgColor="bg_dark_brownish" />
   <Style name="linenumber.highlight" color="main_green_color" />
@@ -51,7 +53,7 @@ THE SOFTWARE. -->
   <Style name="marker.line" color="#3E3D31" />
   <Style name="marker.ruler" color="#B3DEFD" />
   <Style name="marker.whitespace" color="#D9BB7A" />
-  <Style name="marker.invalidline" color="#D40000" />
+  <Style name="marker.invalidline" color="error_bg" />
   <Style name="marker.breakpoint" color="#FFFFFF" bgColor="#7D0000" />
   <Style name="marker.breakpoint.color1" color="#FFFFFF" />
   <Style name="marker.breakpoint.color2" color="#7D0000" />
@@ -142,6 +144,7 @@ THE SOFTWARE. -->
   <Style name="keyword.misc" color="#FB8700" weight="Bold" />
   <Style name="keyword.semantic.type" color="main_green_color" weight="Bold" />
   <Style name="keyword.semantic.field" color="main_green_color" weight="Italic" />
+  <Style name="keyword.semantic.error" color="text_fg" bgColor="error_bg" weight="Italic" />
 
   <Style name="marker.whitespace.eol" color="#D9BB7A" />
   <Style name="marker.breakpoint.invalid" color="#FFFFFF" bgColor="#7D0000" />
